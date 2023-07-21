@@ -1,10 +1,12 @@
 [package]
 name = "mac_proxy"
+description = "A library for Rust to fetch the proxy settings on MacOS"
 version = "0.1.0"
 edition = "2021"
 authors = ["Vincent Chan <okcdz@diverse.space>"]
 repository = "https://github.com/vincentdchan/mac_proxy"
 license = "MIT"
+keywords = ["mac", "proxy"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -13,7 +15,7 @@ name = "polodb_core"
 path = "src/lib.rs"
 
 [dependencies]
-serde_json = "*"
+serde_json = "1.0"
 
 [target.'cfg(target_os = "macos")'.dependencies]
 core-foundation = "0.9"
