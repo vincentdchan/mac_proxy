@@ -1,6 +1,8 @@
 
 # mac_proxy
 
+[![Crates.io](https://img.shields.io/crates/v/mac_proxy.svg)](https://crates.io/crates/mac_proxy)
+
 This is a crate for Rust to fetch the proxy settings 
 on MacOS.
 
