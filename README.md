@@ -11,13 +11,13 @@ on MacOS.
 # Install
 
 ```shell
-cargo add mac_procy
+cargo add mac_proxy
 ```
 
 # Usage
 
 ```rust
-let settings = mac_procy::mac_proxy_settings()
+let settings = mac_proxy::mac_proxy_settings()
 ```
 
 # Result
